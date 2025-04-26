@@ -1,9 +1,9 @@
-## Containers
+# Containers
 Implementation of C++ STL containers library
 
 ---
 
-# List of implemented containers and short description
+## List of implemented containers and short description
 
 - deque - Double ended queue. Based on dynamic array of pointers. Each pointer is responsible for 32-elements chunk.
 - queue - Adapter on deque. Implements the FIFO principle.
