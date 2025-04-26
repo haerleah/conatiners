@@ -13,3 +13,21 @@ Implementation of C++ STL containers library
 - map - Container that holds unique elements in pair of key and value. Based on AVL tree.
 - set - Container that holds unique elements. Every element plays role of key. Based on AVL tree.
 - multiset - Set, but may contain not only unique elements. Based on the AVL tree.
+
+## Run tests
+To build and run tests:\
+```cd src && make test```\
+You can also see tests coverage:\
+```cd src && make gcov_report```
+
+## Usage
+```// example.cpp
+#include "s21_containers.h"
+
+int main() {
+  s21::vector<int> exampleVector = {1, 2, 3, 4};
+  s21::deque<float> exampleDeque;
+  exampleDeque.push_front(1.0f);
+  exampleDeque.push_back(2.0f);
+  return 0; 
+}
